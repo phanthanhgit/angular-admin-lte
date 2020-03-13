@@ -1,2 +1,3 @@
-# angular-admin-lte
-This is base source code Angular Framework using admin-lte
+# Base
+
+This is base project Angular framework using Admin-lte Template

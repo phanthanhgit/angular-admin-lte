@@ -1,0 +1,160 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules//font-awesome/css/font-awesome.min.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "../node_modules//ionicons/css/ionicons.min.css";
+@import "../node_modules/admin-lte/dist/css/adminlte.min.css";
+@import "../node_modules/ngx-toastr/toastr.css";
+
+// @import '~ngx-toastr/toastr';
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+// REPLACE CSS ADMIN LTE
+.nav-pills .nav-link.active {
+  background-color: rgba(0,0,0,.1) !important;
+  color: #212529 !important;
+  box-shadow: none !important;
+}
+
+.brand-link {
+  padding: 4px .5rem;
+}
+
+.brand-link .brand-image {
+  margin-top: 5px !important;
+  max-height: 36px !important;
+}
+
+.sidebar-logo-text {
+  font-size: 32px;
+  font-weight: 600 !important;
+  color: #ffffff;
+}
+
+.form-control-navbar {
+  background-color: #fff !important;
+  color: #000;
+}
+
+.form-control-navbar::placeholder {
+  color: rgba(0,0,0,.7) !important;
+}
+
+.navbar-dark .form-control-navbar+.input-group-append>.btn-navbar {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar-dark .btn-navbar, .navbar-dark .form-control-navbar {
+  background-color: #fff;
+}
+
+.form-control-navbar:focus {
+  box-shadow: none;
+}
+
+.form-control-navbar:focus+.input-group-append>.btn-navbar {
+  background-color: #fff !important;
+}
+
+.form-control-navbar:focus .input-group-append {
+  background-color: #fff !important;
+}
+
+.layout-navbar-fixed.layout-fixed .wrapper .sidebar {
+  margin-bottom: calc(3.5rem + 1px);
+}
+
+.layout-navbar-fixed .wrapper .logout-link {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  -webkit-transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+  width: 250px;
+  z-index: 1035;
+  height: 57px;
+  color: #fff;
+  text-align: center;
+  line-height: 57px;
+  font-size: 18px;
+}
+
+.layout-navbar-fixed .wrapper .logout-link span {
+  margin-left: 10px;
+}
+
+/* optional: show position indicator in red */
+// ::-webkit-scrollbar-thumb {
+//   background: #ff0000;
+// }
+
+// body {
+//   min-height: 100vh;
+// }
+
+// #root {
+//   height: calc(100vh - 112px);
+//   min-height: 100vh;
+// }
+
+// .content-wrapper {
+//   min-height: calc(100vh - 112px) !important;
+// }
+
+// .main-header button {
+//   background: transparent;
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+// }
+
+// .login-card-body,
+// .register-card-body {
+//   background: #fff;
+//   padding: 20px;
+//   border-top: 0;
+//   color: #666;
+// }
+
+// .login-card-body .input-group .input-group-text,
+// .register-card-body .input-group .input-group-text {
+//   color: #777;
+//   background-color: transparent;
+// }
+
+// .login-card-body .input-group .form-control,
+// .register-card-body .input-group .form-control {
+//   border-right: none;
+// }
+
+// ::-webkit-scrollbar {
+//   width: 0px;
+//   height: 8px;
+//   background: transparent;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background: #343a40dd;
+//   border-radius: 8px;
+// }
+
+// /*  */
+
+// .card.user-list tr:hover {
+//   cursor: pointer;
+// }
+
+// .card.card-primary .card-header {
+//   background-color: #4f5962;
+// }
+
+// *:disabled {
+//   cursor: not-allowed;
+// }
